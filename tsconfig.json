@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "ES2018",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "lib": [
+      "es2020",
+      "dom"
+    ],
+    "jsx": "react-jsx",
+    "strict": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": [
+    "index.ts",
+    "Root.tsx",
+    "ExplainerVideo.tsx",
+    "ExplainerVideoAR.tsx",
+    "timing-ar.ts",
+    "declarations.d.ts"
+  ]
+}
