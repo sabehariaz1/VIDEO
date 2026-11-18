@@ -1,12 +1,12 @@
 {
   "name": "prediabetes-explainer",
-  "version": "3.0.0",
+  "version": "2.0.0",
   "private": true,
   "description": "Prediabetes explainer video (2:00, 1920x1080, 30 fps) built with Remotion",
   "scripts": {
     "start": "remotion studio index.ts",
-    "build": "remotion render index.ts PrediabetesExplainer out/PrediabetesExplainer-English.mp4 --codec=h264 --crf=16 --audio-bitrate=320k",
-    "build:ar": "remotion render index.ts PrediabetesExplainerAR out/PrediabetesExplainer-Arabic.mp4 --codec=h264 --crf=16 --audio-bitrate=320k",
+    "build": "remotion render index.ts PrediabetesExplainer out/PrediabetesExplainer.mp4 --codec=h264 --crf=18",
+    "build:ar": "remotion render index.ts PrediabetesExplainerAR out/PrediabetesExplainer-Arabic.mp4 --codec=h264 --crf=18",
     "typecheck": "tsc --noEmit"
   },
   "dependencies": {
